@@ -1,0 +1,100 @@
+*{
+    font-family: gotham;
+ }
+ body{
+     margin: 0%; 
+     background: linear-gradient(black,rgb(87, 87, 87)); 
+     h1{
+         color: white;
+         text-align: center;
+         margin-top: 50px;
+         font-size: 50px;
+     }   
+ }
+ header{
+     background-color: #390099;
+     height: 70px;
+     text-align: right;
+     align-content: center;
+     main{
+         a:hover{
+             color: #FF0054;
+             }
+         img{
+             width: 100px;
+             position: absolute;
+             left: 5mm;
+             top: 2mm;    
+         }
+         #home{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }
+        #movie{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }
+        #series{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }
+        #contact{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }
+          a{
+             color: white;
+             text-decoration: none;
+             padding-inline: 20px;
+             margin-right: 50px;
+          }
+     }  
+ }
+ div{
+    background-color: #FF0054;
+    height: 500px;
+    width: 500px;
+    align-content: center;
+    position: relative;
+    left: 420px;
+    border-radius: 30px;
+    table{
+        margin-left: 60px;
+        td{
+            color: white;
+            }
+    }
+ }
+ footer{
+     background-color: #390099;
+     height: 300px;
+     align-content: center;
+     text-align: center;
+     margin-top: 150px;
+     color: white;
+     .logo{
+         width: 50px;
+         position: absolute;
+     }
+     p{
+        margin-top: 40px;
+        font-size: 30px; 
+     }
+      img{
+         align-content: center;
+        margin-top: 1px;
+        width: 200px;
+      }
+ }

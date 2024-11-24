@@ -1,0 +1,103 @@
+*{
+    font-family: gotham;
+ }
+ body{
+     margin: 0%; 
+     background: linear-gradient(black,rgb(87, 87, 87)); 
+     h1{
+         color: white;
+         text-align: center;
+         margin-top: 50px;
+         font-size: 70px;
+     }   
+ }
+ header{
+     background-color: #390099;
+     height: 70px;
+     text-align: right;
+     align-content: center;
+     main{
+        a:hover{
+            color: #FF0054;
+            }
+        img{
+            width: 100px;
+            position: absolute;
+            left: 5mm;
+            top: 2mm;
+        }
+        #home{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }
+        #movie{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }
+        #series{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }
+        #contact{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            margin-right: 25px;
+            margin-top: px;
+        }    
+         a{
+             color: white;
+             text-decoration: none;
+             padding-inline: 20px;
+             margin-right: 50px;
+          }
+     }    
+ }
+ .grid{
+    display: grid;
+    place-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    grid-template-columns: repeat(5, 190px);
+    img{
+        border: 3px solid #390099;
+        border-radius: 20px;
+        height: 250px;
+    }
+}
+.grid div:hover{
+    border: 2px solid #FF0054;
+    height: 255px;
+    width: 173px;
+    border-radius: 22px;
+}
+footer{
+    background-color: #390099;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    .logo{
+        width: 50px;
+        position: absolute;
+    }
+    p{
+       margin-top: 40px;
+       font-size: 30px; 
+    }
+     img{
+        align-content: center;
+       margin-top: 1px;
+       width: 200px;
+     }
+}
